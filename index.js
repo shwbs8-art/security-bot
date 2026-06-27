@@ -23,10 +23,10 @@ const OWNER_ID = "1221550661263429787";
 const ADMIN_CHANNEL_ID = "1519954672994226196";
 const PUBLIC_CHANNEL_ID = "1519685707709550622";
 const REQUEST_CHANNEL_ID = "1520173000312488146";
-const TICKET_CHANNEL_ID = "ايدي_روم_التذاكر_هنا";
+const TICKET_CHANNEL_ID = "ايدي_روم_التذاكر_هنا"; // <- غير هذا
 const TICKET_CATEGORY_ID = "1502293033226604725";
 const LOG_CHANNEL_ID = "1520181215859183888";
-const ADMIN_ROLE_ID = "ايدي_رتبة_الادمن_هنا";
+const ADMIN_ROLE_ID = "ايدي_رتبة_الادمن_هنا"; // <- غير هذا
 
 // ================= DATA =================
 const FILE = "./allowed.json";
@@ -56,7 +56,7 @@ let statusInterval = null;
 let ticketMessage = null;
 const tickets = new Collection();
 const mentionMap = new Collection();
-const bans = new Collection(); // تخزين الباندات
+const bans = new Collection();
 
 function humanMovement() {
   if (!bot || !bot.entity) return;
