@@ -1,5 +1,0 @@
-[build]
-install = ["npm install"]
-
-[packages]
-apt = ["libatomic1"]
