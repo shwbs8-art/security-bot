@@ -26,7 +26,7 @@ const REQUEST_CHANNEL_ID = "1520173000312488146";
 const TICKET_CHANNEL_ID = "ايدي_روم_التذاكر_هنا"1502364295319785652ا
 const TICKET_CATEGORY_ID = "1502293033226604725";
 const LOG_CHANNEL_ID = "1520181215859183888";
-const ADMIN_ROLE_ID = "ايدي_رتبة_الادمن_هنا"; // <- غير هذا
+const ADMIN_ROLE_ID = "ايدي_رتبة_الادمن_هنا"1519690375273386024ا
 
 // ================= DATA =================
 const FILE = "./allowed.json";
